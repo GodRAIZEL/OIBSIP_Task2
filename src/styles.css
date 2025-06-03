@@ -57,6 +57,21 @@ p {
 	margin-bottom: 30px;
 }
 
+/*#HeroImage {
+    max-width: 30vw;
+    height: auto;
+    border-radius: 50%;
+    border: 7px solid rgb(235, 83, 144);
+}
+
+@media (max-width: 350px) {
+    #HeroImage {
+        max-width: 70vw;
+				justify-content: center;
+    }
+}
+*/
+
 
 #HeroImage {
 	height: 400px;
@@ -83,17 +98,12 @@ p {
 	background: linear-gradient(45deg, #3cf, #f06, #3cf);
 }
 
-@media only screen and (min-width: 300px) and(max-width:380px) {
-	#HeroImage {
-		height: 20px;
-		width: 20px;
-	}
-}
+
 
 @media only screen and (max-width: 425px) {
 	#HeroImage {
-		height: 200px;
-		width: 200px;
+		height: 160px;
+		width: 160px;
 	}
 }
 
