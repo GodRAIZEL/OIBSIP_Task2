@@ -25,7 +25,9 @@ p {
 	font-weight: 600;
 }
 
-
+.navbar{
+	background-color: #0c1022;
+}
 
 .nav-link {
 	font-size: 18px;
@@ -435,6 +437,13 @@ ul li p {
 	color: #3cf;
 	margin:8px;
 }
+
+.project-heading {
+  color: rgb(22, 166, 233);
+  margin-bottom: 40px;
+  text-align: center;
+}
+
 
 .project-description {
 	align-text: center;

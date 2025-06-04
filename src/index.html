@@ -15,7 +15,7 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-md shadow-sm">
+  <nav class="navbar navbar-expand-md shadow-sm fixed-top">
     <div class="container-md">
       <a class="navbar-brand py-0" href="#herosection" id="portfolio">Zane.</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -26,13 +26,14 @@
         <div class="navbar-nav" id="navbaritems">
           <a class="nav-link" id="active" aria-current="page" href="#herosection">Home</a>
           <a class="nav-link" href="#aboutme">About</a>
-          <a class="nav-link" href="#education">Education</a>
+          <a class="nav-link" href="#education">Timeline</a>
           <a class="nav-link" href="#skills">Skills</a>
+          <a class="nav-link" href="#projects">Projects</a>
           <a class="nav-link" href="#contactme">Contact</a>
-          <a class="nav-link" href="https://www.linkedin.com/in/zane-van-rooyen-876a29215/">
+          <a class="nav-link" href="https://www.linkedin.com/in/zane-van-rooyen-876a29215/" target="_blank">
             <img id="linkedInLogo" alt="LinkedIn Logo" src="imgs/linkedin.png" height="25">
           </a>
-          <a class="nav-link" href="https://github.com/GodRAIZEL">
+          <a class="nav-link" href="https://github.com/GodRAIZEL" target="_blank">
             <img id="gitHubLogo" alt="GitHub Logo" src="imgs/github.png" height="25">
           </a>
         </div>
@@ -83,7 +84,7 @@
   </section>
 
   <section class="education" id="education">
-    <h3 class="head">Education</h3>
+    <h3 class="head">Growth Timeline</h3>
     <div class="container" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <ul>
         <li>
@@ -147,7 +148,60 @@
     </div>
   </section>
 
-  <div class="contactme" id="contactme">
+  <section class="projects" id="projects">
+  <h3 class="text-center project-heading">Projects</h3>
+  <div class="projects-container">
+
+    <div class="project" data-aos="flip-left">
+      <div class="project-image project-1"></div>
+      <div class="project-info">
+        <h4 class="project-title">Nita's Bites</h4>
+        <p class="project-description">
+          Responsive landing page of Biltong Website. Built using HTML, CSS, JavaScript, and Bootstrap.
+        </p>
+      </div>
+      <div class="project-button-holder">
+        <a href="https://codsoft-task2-mu.vercel.app/" target="_blank" rel="noopener noreferrer">
+          <button class="project-btn">View Project</button>
+        </a>
+      </div>
+    </div>
+
+    <div class="project" data-aos="flip-left">
+      <div class="project-image project-2"></div>
+      <div class="project-info">
+        <h4 class="project-title">Boss Braids By Yola</h4>
+        <p class="project-description">
+          Responsive landing page of Braiding Website. Built using HTML, CSS, JavaScript, and Bootstrap.
+        </p>
+      </div>
+      <div class="project-button-holder">
+        <a href="https://boss-braids-by-yola.vercel.app/" target="_blank" rel="noopener noreferrer">
+          <button class="project-btn">View Project</button>
+        </a>
+      </div>
+    </div>
+
+    <div class="project" data-aos="flip-left">
+      <div class="project-image project-3"></div>
+      <div class="project-info">
+        <h4 class="project-title">Bistro Bliss</h4>
+        <p class="project-description">
+          Responsive food website. Built using HTML, CSS, JavaScript, and Bootstrap.
+        </p>
+      </div>
+      <div class="project-button-holder">
+        <a href="https://bistro-bliss-one.vercel.app/" target="_blank" rel="noopener noreferrer">
+          <button class="project-btn">View Project</button>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+  <section class="contactme" id="contactme">
     <h3 class="text-center" style="color:rgb(22, 166, 233); margin-bottom: 30px;">Contact Me</h3>
 
     <div class="container-border">
@@ -171,7 +225,7 @@
         </div>
       </form>
     </div>
-  </div>
+  </section>
 
 
    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
